@@ -1,0 +1,106 @@
+/*
+Theme Name: Optima - Child
+Author: GT3themes
+Author URI: http://gt3themes.com
+Description: -
+Version: 1.0
+Template: optima
+*/
+@import url("./../optima/style.css");
+/* CSS Reset */
+/* body{
+  min-height: 100vh !important;
+  margin:0;
+} */
+  /* Justify the whole text of pages */
+.wpb_wrapper p {
+  text-align: justify;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+/* Keep Copyright at the bottom*/
+#footer {
+  position: relative;
+  width: 100%;
+  background-color: #FFF;
+  margin-top: 20px !important;
+}
+#copyright {
+  position: absolute;
+  width: 100%;
+  color: #111;
+  bottom:0;
+}
+.main_footer .copyright {
+  padding-top: 2vh;
+}
+/* Change to the theme secondary blue when hovering on the dates of the calendar */
+a.ui-state-default:hover {
+	background-color: rgba(29, 238, 255, 0.3) !important;
+}
+/* Remove the theme product excerpt */
+.gt3-product-excerpt {
+  display: none;
+}
+/* Don't remember TODO: look at it... */
+.package_head {
+	background-color: #fff;
+	margin-bottom: -30px;
+}
+/* Align the "My-account" page */
+@media only screen and (min-width: 600px) {
+	.sidebar_left {
+		margin-left: -40%;
+	}
+	.woocommerce:first-child {
+		margin-left: 20%;
+	}
+	.woocommerce {
+		margin-right: 20%;
+	}
+}
+/* Remove related products */
+.related {
+	display: none;
+}
+div.price_item-cost {
+  display: none;
+}
+/* Remove the dropdown menu to filter products */
+div.gt3-products-header {
+  display: none;
+}
+/* Remove the category under the product description */
+div.product_meta {
+	display: none;
+}
+/* Fix for the removed category */
+p.price {
+	margin-bottom: 30px;
+}
+/* Remove the commerce tabs under the products */
+ul.woocommerce-tabs {
+	display: none;
+}
+ul.wc-tabs {
+	display: none;
+}
+/* Fix for the commerce tabs */
+div.content-container {
+	margin-bottom: 50px;
+}
+/* May remove the "go back to shop" when product is added to cart */
+a.wc-forward {
+	display: none;
+}
+/* Remove the price after selection the appointment time */
+dl {
+	display: none;
+}
+dd span {
+	display: none;
+}
+/* Gives a space between the comment box(or the text that tells to connect) and the akisment text */
+#respond {
+	margin-bottom: 35px;
+}

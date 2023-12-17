@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This sitemap was dynamically generated on 17 December, 2023 at 3:24 AM by All in One SEO Pro v4.4.8 - the original SEO plugin for WordPress. -->
+
+<?xml-stylesheet type="text/xsl" href="./default-sitemap.xsl?sitemap=product"?>
+<urlset
+	xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+	xmlns:xhtml="http://www.w3.org/1999/xhtml"
+	xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+>
+	<url>
+		<loc><![CDATA[./product/session/]]>/index.html</loc>
+		<lastmod><![CDATA[2023-09-16T16:04:24+00:00]]></lastmod>
+		<changefreq><![CDATA[weekly]]></changefreq>
+		<priority><![CDATA[0.7]]></priority>
+		<image:image>
+			<image:loc><![CDATA[./wp-content/uploads/2023/09/phone-person.webp]]></image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc><![CDATA[./fr/produit/seance-dune-heure/]]>/index.html</loc>
+		<lastmod><![CDATA[2023-09-16T16:04:24+00:00]]></lastmod>
+		<changefreq><![CDATA[weekly]]></changefreq>
+		<priority><![CDATA[0.7]]></priority>
+		<image:image>
+			<image:loc><![CDATA[./wp-content/uploads/2023/09/phone-person.webp]]></image:loc>
+		</image:image>
+	</url>
+</urlset>
